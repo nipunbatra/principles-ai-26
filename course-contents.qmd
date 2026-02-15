@@ -4,7 +4,7 @@ title: "Course Contents"
 
 **Primary Textbook:** [Artificial Intelligence: A Modern Approach](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf) by Peter Norvig and Stuart J. Russell
 
-## Lecture Schedule
+## Module 1: Search and Planning
 
 | # | Dates (H) | Dates (E) | Lecture Slides |
 |--:|:---------:|:---------:|:---------------|
@@ -16,3 +16,11 @@ title: "Course Contents"
 | 6 | Jan 21 | Jan 20 | [Astar](https://drive.google.com/file/d/1fFoJYxpe5OaOk4KhLIgMzvlYA9L_cFgX/view?usp=sharing) (Annotated Slides) |
 | 7 | Jan 28 | Jan 27 | [Alpha-Beta Pruning](https://drive.google.com/file/d/1m76lUIgD6qquQbb0hIPc8ZjSklUqCJqu/view?usp=sharing) (Annotated Slides) |
 | 8 | Feb 2  | Feb 2  | Quiz 1 |
+
+## Module 2: Learning
+
+| # | Dates (H) | Dates (E) | Lecture Slides | Topics |
+|--:|:---------:|:---------:|:---------------|:-------|
+| 9  | Feb 4  | Feb 3  | [Introduction to Machine Learning](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf) | |
+| 10 | Feb 9  | Feb 9  | Data Foundation ([HTML](https://nipunbatra.github.io/principles-ai-teaching/lectures/02-data-foundation/slides.html) &#124; [PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/02-data-foundation/slides.pdf)) | ML paradigms, features/labels, train/test split, sklearn |
+| 11 | Feb 11 | Feb 10 | Supervised Learning ([HTML](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.html) &#124; [PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.pdf)) | Linear/Logistic regression |
