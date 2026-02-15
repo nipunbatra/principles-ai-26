@@ -1,0 +1,151 @@
+/*-- scss:defaults --*/
+
+// Apple-inspired typography
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "SF Mono", SFMono-Regular, ui-monospace, Menlo, monospace;
+
+// Colors - Apple light palette
+$body-bg: #fbfbfd;
+$body-color: #1d1d1f;
+$link-color: #0071e3;
+$link-hover-color: #0077ed;
+
+// Navbar
+$navbar-bg: rgba(251, 251, 253, 0.8);
+$navbar-fg: #1d1d1f;
+
+// Sizing
+$font-size-base: 1.05rem;
+$line-height-base: 1.6;
+$headings-font-weight: 600;
+$border-radius: 12px;
+
+// Table
+$table-striped-bg: rgba(0, 0, 0, 0.02);
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+}
+
+// Navbar - frosted glass
+.navbar {
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+}
+
+// Content width and spacing
+.content {
+  max-width: 780px;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+// Headings
+h1, .h1 {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+h2, .h2 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p.subtitle {
+  font-size: 1.2rem;
+  color: #6e6e73;
+  font-weight: 400;
+}
+
+// Links
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Tables - clean Apple style
+.table {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+
+  thead th {
+    background: #f5f5f7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #6e6e73;
+    padding: 12px 16px;
+  }
+
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    vertical-align: middle;
+  }
+
+  tbody tr:hover {
+    background: rgba(0, 113, 227, 0.04);
+    transition: background 0.2s ease;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+// TOC
+#TOC {
+  font-size: 0.88rem;
+
+  .active {
+    font-weight: 600;
+    color: $link-color;
+    border-left-color: $link-color;
+  }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 3px solid $link-color;
+  padding: 0.5rem 1.2rem;
+  color: #6e6e73;
+  background: rgba(0, 113, 227, 0.03);
+  border-radius: 0 8px 8px 0;
+}
+
+// Lists
+ul, ol {
+  padding-left: 1.5rem;
+
+  li {
+    margin-bottom: 0.4rem;
+  }
+}

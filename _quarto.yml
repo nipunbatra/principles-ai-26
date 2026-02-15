@@ -5,6 +5,7 @@ project:
 website:
   title: "Principles of AI 2026"
   navbar:
+    background: transparent
     left:
       - href: index.qmd
         text: Home
@@ -15,5 +16,9 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme:
+      light: [cosmo, custom-light.scss]
+      dark: [cosmo, custom-dark.scss]
     toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
