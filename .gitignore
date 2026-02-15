@@ -2,3 +2,5 @@ docs/
 .quarto/
 *.html
 !.github/
+
+/.quarto/

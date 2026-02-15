@@ -5,7 +5,6 @@ project:
 website:
   title: "Principles of AI 2026"
   navbar:
-    background: transparent
     left:
       - href: index.qmd
         text: Home
