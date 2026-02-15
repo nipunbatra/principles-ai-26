@@ -1,0 +1,28 @@
+---
+title: "Principles of Artificial Intelligence"
+subtitle: "ES119 | Jan--Apr 2026"
+---
+
+*A foundational course on how intelligent systems think, learn, and decide.*
+
+The course introduces core AI principles including search, reasoning, uncertainty, learning, and modern AI systems. It combines classical AI concepts with contemporary machine learning and deep learning, with emphasis on both understanding and hands-on implementation.
+
+## Key Questions
+
+- How do agents search and plan?
+- How do systems reason under uncertainty?
+- How do machines learn from data and interaction?
+- How do modern AI applications build on these ideas?
+
+We treat AI as a unified discipline, connecting algorithms, probability, learning, and real-world systems---rather than focusing solely on neural networks or language models.
+
+## Instructors
+
+- Bireswar Das
+- Manisha Padala
+- Nirmal Sancheti
+- Nipun Batra
+
+## Communication
+
+All communication will be on Slack only: [Join Slack](https://join.slack.com/t/principles-ai-2026/shared_invite/zt-3l9ze3p76-lyg0motOAQ30TQ4R6Xit5w)

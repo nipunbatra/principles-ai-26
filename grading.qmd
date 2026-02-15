@@ -1,0 +1,34 @@
+---
+title: "Grading"
+---
+
+## Evaluation Breakdown
+
+| Component | Marks |
+|-----------|------:|
+| Theory (3 modules × 23) | 69 |
+| Laboratory (3 labs × 7) | 21 |
+| Attendance | 10 |
+| **Total** | **100** |
+
+### Theory (69 marks)
+
+- Module 1: 23 marks
+- Module 2: 23 marks
+- Module 3: 23 marks
+
+Each module test evaluates conceptual understanding and problem-solving aligned with its corresponding module.
+
+### Laboratory (21 marks)
+
+Three lab evaluations at 7 marks each. Assessment includes: lab performance, code quality, viva/demo, submissions, and written quizzes.
+
+### Attendance (10 marks)
+
+Tracked through biometric system. Missing recorded attendance counts as absence. Students must ensure proper recording.
+
+## Policies
+
+**Leave requests:** There is no leave request system. Missed classes automatically count as absences regardless of reason.
+
+**Exceptional circumstances:** Students missing 4+ consecutive classes may discuss emergencies with the instructor for possible special consideration, though exemptions are not guaranteed and require case-by-case evaluation.

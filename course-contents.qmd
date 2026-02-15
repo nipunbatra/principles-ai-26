@@ -1,0 +1,18 @@
+---
+title: "Course Contents"
+---
+
+**Primary Textbook:** [Artificial Intelligence: A Modern Approach](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf) by Peter Norvig and Stuart J. Russell
+
+## Lecture Schedule
+
+| # | Dates (H) | Dates (E) | Lecture Slides |
+|--:|:---------:|:---------:|:---------------|
+| 1 | Jan 5  | Jan 5  | [Historical Perspectives](https://drive.google.com/file/d/1TOXqWQZNgnJifpIzvTXY27bmUDT0bxpu/view?usp=sharing) (Annotated Slides) |
+| 2 | Jan 7  | Jan 6  | [KNN Analysis](https://drive.google.com/file/d/1RvLqLRkyd1kcKGYaI7m5UpKkjYUNS6L7/view?usp=sharing) (Annotated Slides) |
+| 3 | Jan 12 | Jan 12 | [Asymptotic Analysis](https://drive.google.com/file/d/1AUQL1IBgEq75-llqYKmX2FRgEu_gg8ke/view?usp=sharing) (Annotated Slides) |
+| 4 | Jan 14 | Jan 13 | [Agents and State Spaces](https://drive.google.com/file/d/1tCHTZWPVlOJRHYpgY0BkxDlkCiT8K--L/view?usp=sharing) (Annotated Slides) |
+| 5 | Jan 19 | Jan 19 | [BFS and DFS](https://drive.google.com/file/d/1yZ-XPdjNVOnbB77mR7QHMJ5uEa1qQEAc/view?usp=sharing) (Annotated Slides) |
+| 6 | Jan 21 | Jan 20 | [Astar](https://drive.google.com/file/d/1fFoJYxpe5OaOk4KhLIgMzvlYA9L_cFgX/view?usp=sharing) (Annotated Slides) |
+| 7 | Jan 28 | Jan 27 | [Alpha-Beta Pruning](https://drive.google.com/file/d/1m76lUIgD6qquQbb0hIPc8ZjSklUqCJqu/view?usp=sharing) (Annotated Slides) |
+| 8 | Feb 2  | Feb 2  | Quiz 1 |

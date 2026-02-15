@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Principles of AI 2026"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: grading.qmd
+        text: Grading
+      - href: course-contents.qmd
+        text: Course Contents
+
+format:
+  html:
+    theme: flatly
+    toc: true
