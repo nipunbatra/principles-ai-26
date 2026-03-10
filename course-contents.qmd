@@ -33,72 +33,101 @@ title: "Course Contents"
 
 Short animated videos to supplement the lectures above. Watch before or after class for reinforcement.
 
-#### Lecture 9: Introduction to Machine Learning
+#### Lecture 9: Introduction to Machine Learning (M01V01--V04)
 
+**M01V01 — What is Machine Learning?**
 {{< video https://www.youtube.com/watch?v=UoccmaLwZoI >}}
 
+**M01V02 — Types of Machine Learning**
 {{< video https://www.youtube.com/watch?v=hTji1SQwqMs >}}
 
+**M01V04 — Classification vs Regression**
 {{< video https://www.youtube.com/watch?v=M2QnW6HQPEk >}}
 
-#### Lecture 10: Data Foundation
+#### Lecture 10: Data Foundation (M01V03)
 
+**M01V03 — Training vs Testing Data**
 {{< video https://www.youtube.com/watch?v=2xsVZ6itMfc >}}
 
-#### Lectures 11--12: Linear Regression
+#### Lectures 11--12: Linear Regression (M05V01--V05)
 
+**M05V01 — What is Linear Regression?**
 {{< video https://www.youtube.com/watch?v=tpGoOG2kAu4 >}}
 
+**M05V02 — Matrix Formulation**
 {{< video https://www.youtube.com/watch?v=eAuPngw6YWg >}}
 
+**M05V03 — The Error & Objective**
 {{< video https://www.youtube.com/watch?v=GfWn5H7hMeE >}}
 
+**M05V04 — Deriving the Normal Equation**
 {{< video https://www.youtube.com/watch?v=iJ1Gvi1IqUk >}}
 
+**M05V05 — Worked Example**
 {{< video https://www.youtube.com/watch?v=htrD7kvmYAo >}}
 
-#### Lecture 13: Logistic Regression
+#### Lecture 13: Logistic Regression (M07V01--V07)
 
+**M07V01 — Why Linear Regression Fails for Classification**
 {{< video https://www.youtube.com/watch?v=ntDgsMXn3y4 >}}
 
+**M07V02 — The Sigmoid Function**
 {{< video https://www.youtube.com/watch?v=LYKMhBz-zGA >}}
 
+**M07V03 — The Logistic Regression Model**
 {{< video https://www.youtube.com/watch?v=Xq2z59Rgbis >}}
 
+**M07V04 — Decision Boundary**
 {{< video https://www.youtube.com/watch?v=_1dZbuMPZyo >}}
 
+**M07V05 — Why Not Squared Error?**
 {{< video https://www.youtube.com/watch?v=q162V6czv1M >}}
 
+**M07V06 — Cross-Entropy Loss via MLE**
 {{< video https://www.youtube.com/watch?v=0quE3gru6ME >}}
 
+**M07V07 — Gradient and Learning**
 {{< video https://www.youtube.com/watch?v=DN8l-ajDS80 >}}
 
-#### Lecture 14: Neural Networks — MLP
+#### Lecture 14: Neural Networks — MLP (M08V02--V09)
 
+**M08V02 — The Perceptron**
 {{< video https://www.youtube.com/watch?v=UNaX8uaOVAI >}}
 
+**M08V03 — Logic Gates with Perceptrons**
 {{< video https://www.youtube.com/watch?v=VP5rHCe2S5k >}}
 
+**M08V04 — The XOR Problem**
 {{< video https://www.youtube.com/watch?v=6Mlw59X0bE4 >}}
 
+**M08V05 — Activation Functions**
 {{< video https://www.youtube.com/watch?v=KgfF61Zsi-0 >}}
 
+**M08V06 — The Multi-Layer Perceptron**
 {{< video https://www.youtube.com/watch?v=NiuHB2wx4yw >}}
 
+**M08V07 — Forward Propagation**
 {{< video https://www.youtube.com/watch?v=LIKdvMhF_Yc >}}
 
+**M08V08 — Vectorized Forward Propagation**
 {{< video https://www.youtube.com/watch?v=uqvNkihYrBc >}}
 
+**M08V09 — XOR Solved by an MLP**
 {{< video https://www.youtube.com/watch?v=D3lqS2NFQYA >}}
 
-#### Lecture 15: Neural Networks — Autograd
+#### Lecture 15: Neural Networks — Autograd (M09V01--V05)
 
+**M09V01 — Why Automatic Differentiation?**
 {{< video https://www.youtube.com/watch?v=VMsHnrxo5WQ >}}
 
+**M09V02 — Computational Graphs**
 {{< video https://www.youtube.com/watch?v=eN79pT_8RMU >}}
 
+**M09V03 — Backpropagation Through a Graph**
 {{< video https://www.youtube.com/watch?v=gIIZTCE9f4Q >}}
 
+**M09V04 — Full Backward Pass Example**
 {{< video https://www.youtube.com/watch?v=7IO6EsqKFb4 >}}
 
+**M09V05 — Building an Autograd Engine**
 {{< video https://www.youtube.com/watch?v=dQkSNXe9uc8 >}}
