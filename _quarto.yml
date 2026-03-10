@@ -12,6 +12,8 @@ website:
         text: Grading
       - href: course-contents.qmd
         text: Course Contents
+  page-footer:
+    left: "Principles of AI · ES119 · IIT Gandhinagar"
 
 format:
   html:
@@ -21,3 +23,9 @@ format:
     toc: true
     smooth-scroll: true
     link-external-newwindow: true
+    mainfont: "Work Sans"
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">

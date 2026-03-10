@@ -1,28 +1,28 @@
 /*-- scss:defaults --*/
 
-// Apple-inspired typography
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+// Typography - matching nipunbatra.github.io
+$font-family-sans-serif: "Work Sans", system-ui, sans-serif;
 $font-family-monospace: "SF Mono", SFMono-Regular, ui-monospace, Menlo, monospace;
 
-// Colors - Apple dark palette
-$body-bg: #000000;
-$body-color: #f5f5f7;
-$link-color: #2997ff;
-$link-hover-color: #64b5f6;
+// Colors - dark navy palette (matching personal site)
+$body-bg: #1a1a2e;
+$body-color: #e8e8e8;
+$link-color: #e07a6b;
+$link-hover-color: #f09080;
 
 // Navbar
-$navbar-bg: rgba(0, 0, 0, 0.8);
-$navbar-fg: #f5f5f7;
+$navbar-bg: rgba(26, 26, 46, 0.95);
+$navbar-fg: #e8e8e8;
 
 // Sizing
 $font-size-base: 1.05rem;
-$line-height-base: 1.6;
+$line-height-base: 1.7;
 $headings-font-weight: 600;
 $border-radius: 12px;
 
 // Table
 $table-striped-bg: rgba(255, 255, 255, 0.03);
-$table-color: #f5f5f7;
+$table-color: #e8e8e8;
 
 /*-- scss:rules --*/
 
@@ -34,17 +34,28 @@ body {
 
 // Navbar - frosted glass dark
 .navbar {
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
 
 .navbar-brand {
+  font-family: "Playfair Display", serif !important;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: -0.02em;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.95rem;
+  color: #a0a0a0 !important;
+  transition: color 0.2s ease;
+
+  &:hover, &.active {
+    color: $link-color !important;
+  }
 }
 
 // Content width and spacing
@@ -56,11 +67,12 @@ main {
   padding-top: 2rem;
 }
 
-// Headings
+// Headings - Playfair Display for h1
 h1, .h1 {
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  font-size: 2.4rem;
+  font-family: "Playfair Display", serif !important;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: clamp(2rem, 4vw, 2.8rem);
   margin-bottom: 1rem;
 }
 
@@ -74,21 +86,21 @@ h2, .h2 {
 
 p.subtitle {
   font-size: 1.2rem;
-  color: #a1a1a6;
+  color: #a0a0a0;
   font-weight: 400;
 }
 
 // Links
 a {
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
 
   &:hover {
     text-decoration: none;
   }
 }
 
-// Tables - clean Apple dark style
+// Tables - clean dark style
 .table {
   border: none;
   border-radius: 12px;
@@ -96,25 +108,28 @@ a {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
 
   thead th {
-    background: #1c1c1e;
+    background: #252545;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: #a1a1a6;
-    padding: 12px 16px;
+    letter-spacing: 0.5px;
+    color: #a0a0a0;
+    padding: 14px 16px;
   }
 
   td {
-    padding: 12px 16px;
+    padding: 14px 16px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     vertical-align: middle;
   }
 
-  tbody tr:hover {
-    background: rgba(41, 151, 255, 0.08);
+  tbody tr {
     transition: background 0.2s ease;
+  }
+
+  tbody tr:hover {
+    background: rgba(224, 122, 107, 0.08);
   }
 
   tbody tr:last-child td {
@@ -137,8 +152,8 @@ a {
 blockquote {
   border-left: 3px solid $link-color;
   padding: 0.5rem 1.2rem;
-  color: #a1a1a6;
-  background: rgba(41, 151, 255, 0.05);
+  color: #a0a0a0;
+  background: rgba(224, 122, 107, 0.06);
   border-radius: 0 8px 8px 0;
 }
 
@@ -151,12 +166,126 @@ ul, ol {
   }
 }
 
+// Cards - for custom content blocks
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 1.5rem 0;
+}
+
+.info-card {
+  padding: 20px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: all 0.25s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    line-height: 1.5;
+  }
+}
+
+// CTA section
+.cta-section {
+  background: linear-gradient(135deg, #252545 0%, #3d3d5a 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  margin: 2rem 0;
+
+  h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  p {
+    opacity: 0.85;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  a.cta-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.25s ease;
+    background: white;
+    color: #1a1a2e;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      color: #1a1a2e;
+    }
+  }
+}
+
+// Pill badges
+.pill {
+  display: inline-block;
+  padding: 4px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: #a0a0a0;
+  margin: 2px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $link-color;
+    color: $link-color;
+  }
+}
+
+// Footer
+.quarto-footer {
+  color: #a0a0a0;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 // Hide Quarto's default slider toggle completely
 .quarto-color-scheme-toggle.quarto-navigation-tool {
-  border: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 50% !important;
   background: none !important;
-  padding: 6px !important;
+  padding: 0 !important;
   cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $link-color !important;
+    color: $link-color;
+  }
 
   &::before, &::after {
     display: none !important;
@@ -169,28 +298,13 @@ ul, ol {
     display: none !important;
   }
 
-  // Moon icon (default state)
-  width: 36px;
-  height: 36px;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f5f5f7' stroke='none'%3E%3Cpath d='M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z'%3E%3C/path%3E%3C/svg%3E") !important;
-  background-size: 24px 24px !important;
+  // Moon icon (default state in dark mode)
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a0a0a0' stroke-width='2'%3E%3Cpath d='M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z'/%3E%3C/svg%3E") !important;
+  background-size: 18px 18px !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  transition: transform 0.4s ease;
 
-  &:hover {
-    transform: scale(1.2) rotate(-12deg);
-  }
-
-  // Sun icon when in dark/alternate mode
   &.alternate {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f5f5f7' stroke='none'%3E%3Ccircle cx='12' cy='12' r='5'/%3E%3Cg stroke='%23f5f5f7' stroke-width='2' stroke-linecap='round'%3E%3Cline x1='12' y1='1' x2='12' y2='4'/%3E%3Cline x1='12' y1='20' x2='12' y2='23'/%3E%3Cline x1='4.22' y1='4.22' x2='6.34' y2='6.34'/%3E%3Cline x1='17.66' y1='17.66' x2='19.78' y2='19.78'/%3E%3Cline x1='1' y1='12' x2='4' y2='12'/%3E%3Cline x1='20' y1='12' x2='23' y2='12'/%3E%3Cline x1='4.22' y1='19.78' x2='6.34' y2='17.66'/%3E%3Cline x1='17.66' y1='6.34' x2='19.78' y2='4.22'/%3E%3C/g%3E%3C/svg%3E") !important;
-
-    &:hover {
-      transform: scale(1.2) rotate(20deg);
-    }
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23a0a0a0' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='5'/%3E%3Cline x1='12' y1='1' x2='12' y2='3'/%3E%3Cline x1='12' y1='21' x2='12' y2='23'/%3E%3Cline x1='4.22' y1='4.22' x2='5.64' y2='5.64'/%3E%3Cline x1='18.36' y1='18.36' x2='19.78' y2='19.78'/%3E%3Cline x1='1' y1='12' x2='3' y2='12'/%3E%3Cline x1='21' y1='12' x2='23' y2='12'/%3E%3Cline x1='4.22' y1='19.78' x2='5.64' y2='18.36'/%3E%3Cline x1='18.36' y1='5.64' x2='19.78' y2='4.22'/%3E%3C/svg%3E") !important;
   }
 }
