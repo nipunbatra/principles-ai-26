@@ -25,10 +25,18 @@ Three lab evaluations at 7 marks each. Assessment includes: lab performance, cod
 
 ### Attendance (10 marks)
 
-Tracked through biometric system. Missing recorded attendance counts as absence. Students must ensure proper recording.
+| Absences | Marks |
+|----------|------:|
+| ≤ 4 | 10 |
+| 5, 6 | 8 |
+| 7, 8 | 6 |
+| 9, 10 | 2 |
+| > 10 | 0 |
+
+Students bear responsibility for ensuring their attendance is recorded via the biometric system. Unrecorded attendance counts as an absence regardless of physical presence.
 
 ## Policies
 
-**Leave requests:** There is no leave request system. Missed classes automatically count as absences regardless of reason.
+**Leave requests:** There is no leave request system. Any missed class registers as an absence. Students need not notify the instructor or submit medical documentation for individual absences.
 
-**Exceptional circumstances:** Students missing 4+ consecutive classes may discuss emergencies with the instructor for possible special consideration, though exemptions are not guaranteed and require case-by-case evaluation.
+**Exceptional circumstances:** Students facing emergencies requiring 4+ consecutive absences may discuss special consideration with the instructor directly.
