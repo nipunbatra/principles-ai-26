@@ -35,3 +35,5 @@ title: "Course Contents"
 | # | Dates (H) | Dates (E) | Lecture Slides |
 |--:|:---------:|:---------:|:---------------|
 | 1 | Mar 18  | Mar 17  | [Probabilistic Reasoning](https://drive.google.com/file/d/122VC1485T3EMt7HS1MBQDqM9D3jOg8b2/view?usp=sharing) |
+| 2 | Mar 25  | Mar 24  | [Decision Trees & Expert Systems](https://drive.google.com/file/d/1DYqarlITEySm-YLX0D71djI-5as0Ztlj/view?usp=sharing) |
+| 3 | Apr 01  | Mar 30  | [Evaluation Metrics](https://drive.google.com/file/d/1yINSXZq8nq-qVBWS6H7xsVwVXeHLsXNX/view?usp=sharing) |
