@@ -37,4 +37,5 @@ title: "Course Contents"
 | 1 | Mar 18  | Mar 17  | [Probabilistic Reasoning](https://drive.google.com/file/d/122VC1485T3EMt7HS1MBQDqM9D3jOg8b2/view?usp=sharing) |
 | 2 | Mar 25  | Mar 24  | [Decision Trees & Expert Systems](https://drive.google.com/file/d/1DYqarlITEySm-YLX0D71djI-5as0Ztlj/view?usp=sharing) |
 | 3 | Apr 01  | Mar 30  | [Evaluation Metrics](https://drive.google.com/file/d/1yINSXZq8nq-qVBWS6H7xsVwVXeHLsXNX/view?usp=sharing) |
-| 4 | Apr 06  | Apr 06  | [Sequential Decision Making](https://drive.google.com/file/d/12Hi8SsY9BLdtdxI3F9nze37YRZAAUpZC/view?usp=sharing) |
+| 4 | Apr 06  | Apr 06  | [Sequential Decision Making: Utilities and MDPs](https://drive.google.com/file/d/12Hi8SsY9BLdtdxI3F9nze37YRZAAUpZC/view?usp=sharing) |
+| 5 | Apr 07  | Apr 08  | [Sequential Decision Making: Solving MDPs](https://drive.google.com/file/d/1NtvL5E45S-MSapD0DRVYtbtNqhAm2VFB/view?usp=sharing) |
