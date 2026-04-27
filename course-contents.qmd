@@ -41,4 +41,4 @@ title: "Course Contents"
 | 5 | Apr 07  | Apr 07  | [Sequential Decision Making: Solving MDPs](https://drive.google.com/file/d/1NtvL5E45S-MSapD0DRVYtbtNqhAm2VFB/view?usp=sharing) |
 | 6 | Apr 08  | Apr 08  | [Passive Reinforcement Learning](https://drive.google.com/file/d/1dZa2HkLnf8HM3lRyRQmgPzWJ8Jgj4Res/view?usp=sharing) |
 | 7 | Apr 13  | Apr 13  | [Active Reinforcement Learning](https://drive.google.com/file/d/1tPrxlQqDLDrBvOl-Fix8OSUmXCRCu_-x/view?usp=sharing) |
-
+| 7 | Apr 25  | Apr 25  | [Quiz (Question Papers)](https://drive.google.com/drive/folders/1qMdk1O80Urr_FBk0GoCrfVehWbU82gZz?usp=sharing) |
