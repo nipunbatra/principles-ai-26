@@ -14,6 +14,7 @@ body-classes: dl wide
 <p class="lede" style="margin-top:18px">A foundational course on how intelligent systems think, learn and decide. It introduces the core principles of AI, including search, reasoning, uncertainty, learning and modern AI systems, and combines classical AI with contemporary machine learning and deep learning, with emphasis on both understanding and hands-on implementation.</p>
 <dl class="facts">
   <dt>Instructors</dt><dd>Bireswar Das<br>Manisha Padala<br>Nirmal Sancheti<br><a href="https://nipunbatra.github.io">Nipun Batra</a></dd>
+  <dt>Sections</dt><dd>Two sections, one taught in Hindi and one in English</dd>
   <dt>Textbook</dt><dd><a href="https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf"><i>Artificial Intelligence: A Modern Approach</i></a></dd>
   <dt>Discussion</dt><dd><a href="https://join.slack.com/t/principles-ai-2026/shared_invite/zt-3l9ze3p76-lyg0motOAQ30TQ4R6Xit5w">Course Slack</a>, for all course communication</dd>
 </dl>
