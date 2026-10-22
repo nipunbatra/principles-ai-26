@@ -1,0 +1,13 @@
+<!-- Course dates, shared by Assessment. Write dates as "05 Jan 26" or "05 Jan 26, 6:30 pm" (IST);
+     the page greys out past rows and draws the Today line from the date in the browser. -->
+
+::: {.dates}
+
+| Date | Event |
+|---|---|
+| 05 Jan 26 | First lecture |
+| 02 Feb 26 | **Quiz 1** (Module 1) |
+| 13 Apr 26 | Last lecture |
+| 25 Apr 26 | **Module 3 quiz** ([question papers](https://drive.google.com/drive/folders/1qMdk1O80Urr_FBk0GoCrfVehWbU82gZz?usp=sharing)) |
+
+:::

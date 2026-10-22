@@ -1,0 +1,45 @@
+---
+title: "Assessment"
+body-classes: dl wide
+---
+
+```{=html}
+<p class="lede">Grading, attendance and the dated events of the 2026 offering in one place. Each of the three modules ends with a test, and three lab evaluations run alongside.</p>
+```
+
+::: {.two .rule-top}
+
+## Dates {#deadlines}
+
+{{< include _dates.qmd >}}
+
+## Grading {#grading}
+
+Everything is out of **100 marks**.
+
+```{=html}
+<table class="t" data-quarto-disable-processing="true">
+<thead><tr><th>Component</th><th>Marks</th><th>How</th></tr></thead>
+<tbody>
+<tr><th>Theory</th><td class="big">69</td><td>Three module tests, 23 marks each. Each test evaluates conceptual understanding and problem-solving aligned with its module.</td></tr>
+<tr><th>Laboratory</th><td class="big">21</td><td>Three lab evaluations, 7 marks each. Assessment covers lab performance, code quality, a viva or demo, submissions and written quizzes.</td></tr>
+<tr><th>Attendance</th><td class="big">10</td><td>Recorded on the biometric system. It is your responsibility to make sure it registers; unrecorded attendance counts as an absence regardless of physical presence.</td></tr>
+<tr><th>Total</th><td class="big">100</td><td></td></tr>
+</tbody></table>
+```
+
+### Attendance {#attendance}
+
+```{=html}
+<table class="t att" data-quarto-disable-processing="true">
+<thead><tr><th>Absences</th><th>Marks</th></tr></thead>
+<tbody><tr><td>≤ 4</td><td>10</td></tr><tr><td>5</td><td>9</td></tr><tr><td>6</td><td>8</td></tr><tr><td>7</td><td>7</td></tr><tr><td>8</td><td>6</td></tr><tr><td>9</td><td>3</td></tr><tr><td>10</td><td>2</td></tr><tr><td>&gt; 10</td><td>0</td></tr></tbody></table>
+```
+
+### Policies {#policies}
+
+**Leave requests.** There is no leave request system. Any missed class registers as an absence; you do not need to notify the instructor or submit medical documentation for individual absences.
+
+**Exceptional circumstances.** If an emergency requires four or more consecutive absences, discuss special consideration with the instructor directly.
+
+:::

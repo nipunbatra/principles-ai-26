@@ -3,29 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "Principles of AI 2026"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: grading.qmd
-        text: Grading
-      - href: course-contents.qmd
-        text: Course Contents
-  page-footer:
-    left: "Principles of AI · ES119 · IIT Gandhinagar"
+  title: "ES 119 · Principles of AI"
+  favicon: favicon.svg
+  description: "Principles of Artificial Intelligence at IIT Gandhinagar"
+  site-url: https://nipunbatra.github.io/principles-ai-26/
+  search: false
 
 format:
   html:
-    theme:
-      light: [cosmo, custom-light.scss]
-      dark: [cosmo, custom-dark.scss]
-    toc: true
-    smooth-scroll: true
+    theme: [cosmo, styles.scss, course.scss]
+    toc: false
+    page-layout: article
+    anchor-sections: false
+    body-classes: dl
     link-external-newwindow: true
-    mainfont: "Work Sans"
-    include-in-header:
-      text: |
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    include-in-header: course-theme.html
+    include-before-body: rail.html
+    include-after-body: course-tools.html

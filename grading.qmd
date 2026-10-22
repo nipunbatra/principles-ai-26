@@ -1,45 +1,10 @@
 ---
 title: "Grading"
+include-in-header:
+  text: |
+    <meta http-equiv="refresh" content="0; url=assessment.html#grading">
+    <link rel="canonical" href="https://nipunbatra.github.io/principles-ai-26/assessment.html#grading">
+    <meta name="robots" content="noindex">
 ---
 
-## Evaluation Breakdown
-
-| Component | Marks |
-|-----------|------:|
-| Theory (3 modules × 23) | 69 |
-| Laboratory (3 labs × 7) | 21 |
-| Attendance | 10 |
-| **Total** | **100** |
-
-### Theory (69 marks)
-
-- Module 1: 23 marks
-- Module 2: 23 marks
-- Module 3: 23 marks
-
-Each module test evaluates conceptual understanding and problem-solving aligned with its corresponding module.
-
-### Laboratory (21 marks)
-
-Three lab evaluations at 7 marks each. Assessment includes: lab performance, code quality, viva/demo, submissions, and written quizzes.
-
-### Attendance (10 marks)
-
-| Absences | Marks |
-|----------|------:|
-| ≤ 4 | 10 |
-| 5 | 9 |
-| 6 | 8 |
-| 7 | 7 |
-| 8 | 6 |
-| 9 | 3 |
-| 10 | 2 |
-| > 10 | 0 |
-
-Students bear responsibility for ensuring their attendance is recorded via the biometric system. Unrecorded attendance counts as an absence regardless of physical presence.
-
-## Policies
-
-**Leave requests:** There is no leave request system. Any missed class registers as an absence. Students need not notify the instructor or submit medical documentation for individual absences.
-
-**Exceptional circumstances:** Students facing emergencies requiring 4+ consecutive absences may discuss special consideration with the instructor directly.
+This page has moved: [go to Grading](/assessment.html#grading).

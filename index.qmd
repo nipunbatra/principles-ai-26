@@ -1,51 +1,78 @@
 ---
-title: "Principles of Artificial Intelligence"
-subtitle: "ES119 · Jan--Apr 2026"
-toc: false
+pagetitle: "ES 119 · Principles of Artificial Intelligence"
+description: "Principles of Artificial Intelligence at IIT Gandhinagar, Semester II 2025–26"
+body-classes: dl wide
 ---
 
-*A foundational course on how intelligent systems think, learn, and decide.*
+::: {.top}
 
-The course introduces core AI principles including search, reasoning, uncertainty, learning, and modern AI systems. It combines classical AI concepts with contemporary machine learning and deep learning, with emphasis on both understanding and hands-on implementation.
-
-## Key Questions
-
-::: {.card-grid}
-::: {.info-card}
-[Search & Planning]{.card-title}
-
-[How do agents search through possibilities and plan optimal actions?]{.card-text}
+::: {.top-main}
+```{=html}
+<span hidden></span><!-- keeps Quarto from moving the h1 into its own title block -->
+<h1 class="h1">Principles of Artificial Intelligence</h1>
+<p class="role">ES 119 · IIT Gandhinagar · Semester II, 2025–26</p>
+<p class="lede" style="margin-top:18px">A foundational course on how intelligent systems think, learn and decide. It introduces the core principles of AI, including search, reasoning, uncertainty, learning and modern AI systems, and combines classical AI with contemporary machine learning and deep learning, with emphasis on both understanding and hands-on implementation.</p>
+<dl class="facts">
+  <dt>Instructors</dt><dd>Bireswar Das<br>Manisha Padala<br>Nirmal Sancheti<br><a href="https://nipunbatra.github.io">Nipun Batra</a></dd>
+  <dt>Textbook</dt><dd><a href="https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf"><i>Artificial Intelligence: A Modern Approach</i></a></dd>
+  <dt>Discussion</dt><dd><a href="https://join.slack.com/t/principles-ai-2026/shared_invite/zt-3l9ze3p76-lyg0motOAQ30TQ4R6Xit5w">Course Slack</a>, for all course communication</dd>
+</dl>
+```
 :::
 
-::: {.info-card}
-[Reasoning]{.card-title}
-
-[How do systems reason under uncertainty with incomplete information?]{.card-text}
+::: {.next aria-labelledby="record-h"}
+```{=html}
+<span class="label" id="record-h">Course record</span>
+<p class="small" style="margin:0 0 12px">This offering ran from January to April 2026. Its lecture slides, short videos and notebooks remain available.</p>
+<dl>
+  <dt>Lectures</dt><dd><span class="stat">22</span></dd>
+  <dt>Short videos</dt><dd><span class="stat">41</span></dd>
+  <dt>Module tests</dt><dd><a href="assessment.html#grading">3</a></dd>
+  <dt>Lab evaluations</dt><dd><a href="assessment.html#grading">3</a></dd>
+</dl>
+<p class="all"><a href="assessment.html#deadlines">All dates</a></p>
+```
 :::
 
-::: {.info-card}
-[Learning]{.card-title}
-
-[How do machines learn patterns from data and improve through interaction?]{.card-text}
 :::
 
-::: {.info-card}
-[Modern AI]{.card-title}
+```{=html}
+<section class="rule-top" id="lectures"><h2>Lectures</h2>
+<ul class="modules c3">
+  <li><span class="r">1–7</span><a href="schedule.html#search-and-planning">Search and planning</a><span class="c">7 lectures</span></li>
+  <li><span class="r">8–15</span><a href="schedule.html#learning">Learning</a><span class="c">8 lectures</span></li>
+  <li><span class="r">16–22</span><a href="schedule.html#reasoning-and-decisions">Reasoning and decision making</a><span class="c">7 lectures</span></li>
+</ul>
+<div class="playlists">
+  <a class="btn solid" href="schedule.html">All 22 lectures</a>
+</div>
+</section>
 
-[How do applications like ChatGPT and self-driving cars build on these foundations?]{.card-text}
-:::
-:::
+<section class="rule-top" id="key-questions"><h2>Key questions</h2>
+<p class="small muted">The course treats AI as a unified discipline, connecting algorithms, probability, learning and real-world systems, rather than focusing solely on neural networks or language models.</p>
+<dl class="facts">
+  <dt>Search and planning</dt><dd>How do agents search through possibilities and plan optimal actions?</dd>
+  <dt>Reasoning</dt><dd>How do systems reason under uncertainty with incomplete information?</dd>
+  <dt>Learning</dt><dd>How do machines learn patterns from data and improve through interaction?</dd>
+  <dt>Modern AI</dt><dd>How do applications like ChatGPT and self-driving cars build on these foundations?</dd>
+</dl>
+</section>
 
-We treat AI as a unified discipline, connecting algorithms, probability, learning, and real-world systems---rather than focusing solely on neural networks or language models.
-
-## Instructors
-
-[Bireswar Das]{.pill} [Manisha Padala]{.pill} [Nirmal Sancheti]{.pill} [Nipun Batra]{.pill}
-
-::: {.cta-section}
-### Join the Conversation
-
-All course communication happens on Slack.
-
-[Join Slack](https://join.slack.com/t/principles-ai-2026/shared_invite/zt-3l9ze3p76-lyg0motOAQ30TQ4R6Xit5w){.cta-btn}
-:::
+<div class="two rule-top">
+<section id="faq"><h2>Questions</h2>
+<details class="q" id="grading"><summary>How is the course graded?</summary><p>Out of 100 marks: three module tests of 23 marks each (69), three lab evaluations of 7 marks each (21) and attendance (10). See <a href="assessment.html#grading">Grading</a>.</p></details>
+<details class="q" id="module-tests"><summary>What do the module tests cover?</summary><p>Each module test evaluates conceptual understanding and problem-solving aligned with its module: search and planning, learning, and reasoning and decision making.</p></details>
+<details class="q" id="labs"><summary>How are the labs assessed?</summary><p>Each of the three lab evaluations is worth 7 marks and covers lab performance, code quality, a viva or demo, submissions and written quizzes.</p></details>
+<details class="q" id="missed-class"><summary>What if I miss a class?</summary><p>There is no leave request system: any missed class is an absence, and you do not need to notify the instructor or submit medical documentation. Attendance is recorded on the biometric system, and it is your responsibility to make sure it registers. See <a href="assessment.html#attendance">Attendance</a>.</p></details>
+<details class="q" id="emergency"><summary>What if an emergency keeps me away for several classes?</summary><p>If an emergency requires four or more consecutive absences, discuss special consideration with the instructor directly.</p></details>
+<p class="small muted" style="margin-top:12px">Anything else: ask on <a href="https://join.slack.com/t/principles-ai-2026/shared_invite/zt-3l9ze3p76-lyg0motOAQ30TQ4R6Xit5w">the course Slack</a>.</p>
+</section>
+<section id="references"><h2>References</h2>
+<p class="small muted">Primary textbook:</p>
+<ul class="refs">
+  <li>Stuart J. Russell and Peter Norvig, <i>Artificial Intelligence: A Modern Approach</i> (<a href="https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf">PDF</a>)</li>
+</ul>
+<p class="small muted" style="margin-top:14px">Most slides and notebooks for the learning module are hosted on the <a href="https://nipunbatra.github.io/principles-ai-teaching/">course materials site</a>.</p>
+</section>
+</div>
+```

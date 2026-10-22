@@ -1,44 +1,10 @@
 ---
-title: "Course Contents"
+title: "Course contents"
+include-in-header:
+  text: |
+    <meta http-equiv="refresh" content="0; url=schedule.html">
+    <link rel="canonical" href="https://nipunbatra.github.io/principles-ai-26/schedule.html">
+    <meta name="robots" content="noindex">
 ---
 
-**Primary Textbook:** [Artificial Intelligence: A Modern Approach](https://people.engr.tamu.edu/guni/csce625/slides/AI.pdf) by Peter Norvig and Stuart J. Russell
-
-## Module 1: Search and Planning
-
-| # | Dates (H) | Dates (E) | Lecture Slides |
-|--:|:---------:|:---------:|:---------------|
-| 1 | Jan 5  | Jan 5  | [Historical Perspectives](https://drive.google.com/file/d/1TOXqWQZNgnJifpIzvTXY27bmUDT0bxpu/view?usp=sharing) (Annotated Slides) |
-| 2 | Jan 7  | Jan 6  | [KNN Analysis](https://drive.google.com/file/d/1RvLqLRkyd1kcKGYaI7m5UpKkjYUNS6L7/view?usp=sharing) (Annotated Slides) |
-| 3 | Jan 12 | Jan 12 | [Asymptotic Analysis](https://drive.google.com/file/d/1AUQL1IBgEq75-llqYKmX2FRgEu_gg8ke/view?usp=sharing) (Annotated Slides) |
-| 4 | Jan 14 | Jan 13 | [Agents and State Spaces](https://drive.google.com/file/d/1tCHTZWPVlOJRHYpgY0BkxDlkCiT8K--L/view?usp=sharing) (Annotated Slides) |
-| 5 | Jan 19 | Jan 19 | [BFS and DFS](https://drive.google.com/file/d/1yZ-XPdjNVOnbB77mR7QHMJ5uEa1qQEAc/view?usp=sharing) (Annotated Slides) |
-| 6 | Jan 21 | Jan 20 | [Astar](https://drive.google.com/file/d/1fFoJYxpe5OaOk4KhLIgMzvlYA9L_cFgX/view?usp=sharing) (Annotated Slides) |
-| 7 | Jan 28 | Jan 27 | [Alpha-Beta Pruning](https://drive.google.com/file/d/1m76lUIgD6qquQbb0hIPc8ZjSklUqCJqu/view?usp=sharing) (Annotated Slides) |
-| 8 | Feb 2  | Feb 2  | Quiz 1 |
-
-## Module 2: Learning
-
-| # | Dates (H) | Dates (E) | Lecture Slides | Topics | Videos |
-|--:|:---------:|:---------:|:---------------|:-------|:-------|
-| 9  | Feb 4  | Feb 3  | [Introduction to Machine Learning](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf) | | M01V01--V04: [What is ML?](https://www.youtube.com/watch?v=UoccmaLwZoI), [Types of ML](https://www.youtube.com/watch?v=hTji1SQwqMs), [Classification vs Regression](https://www.youtube.com/watch?v=M2QnW6HQPEk) |
-| 10 | Feb 9  | Feb 9  | Data Foundation ([HTML](https://nipunbatra.github.io/principles-ai-teaching/lectures/02-data-foundation/slides.html) &#124; [PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/02-data-foundation/slides.pdf)) | ML paradigms, features/labels, train/test split, sklearn | M01V03: [Train vs Test](https://www.youtube.com/watch?v=2xsVZ6itMfc) |
-| 11 | Feb 11 | Feb 10 | Supervised Learning ([HTML](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.html) &#124; [PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.pdf)) | Linear regression | M05V01--V07: [What is LR?](https://www.youtube.com/watch?v=tpGoOG2kAu4), [Matrix Form](https://www.youtube.com/watch?v=eAuPngw6YWg), [Error & Objective](https://www.youtube.com/watch?v=GfWn5H7hMeE), [Normal Equation](https://www.youtube.com/watch?v=iJ1Gvi1IqUk), [Worked Example](https://www.youtube.com/watch?v=htrD7kvmYAo), [Outliers](https://www.youtube.com/watch?v=xLOJpXZ-5ss), [Basis Expansion](https://www.youtube.com/watch?v=uz5UT7LOZC0) |
-| 12 | Feb 16  | Feb 16  | Supervised Learning ([HTML](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.html) &#124; [PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.pdf)) | Linear regression | (same as above) |
-| 13 | Feb 18 | Feb 17 | Supervised Learning ([HTML](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.html) &#124; [PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/03-supervised-learning/slides.pdf)) | Logistic regression | M07V01--V08: [Why LR Fails](https://www.youtube.com/watch?v=ntDgsMXn3y4), [Sigmoid](https://www.youtube.com/watch?v=LYKMhBz-zGA), [LR Model](https://www.youtube.com/watch?v=Xq2z59Rgbis), [Decision Boundary](https://www.youtube.com/watch?v=_1dZbuMPZyo), [Why Not MSE?](https://www.youtube.com/watch?v=q162V6czv1M), [Cross-Entropy](https://www.youtube.com/watch?v=0quE3gru6ME), [Gradient & Learning](https://www.youtube.com/watch?v=DN8l-ajDS80), [Non-Linear Boundaries](https://www.youtube.com/watch?v=2WhmR2FzhIs) |
-| 14 | Mar 9  | Mar 9  | Neural Networks — MLP ([PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/05-neural-networks/mlp.pdf)), Notebooks: [NN Power](https://nipunbatra.github.io/principles-ai-teaching/lecture_demo/L05_nn_power.html), [Perceptron](https://nipunbatra.github.io/principles-ai-teaching/lecture_demo/L05_perceptron.html) | Perceptrons, logic gates, XOR, MLP, activations, forward propagation | M08V01--V09: [Features to Learning](https://www.youtube.com/watch?v=jH28E88Voio), [Perceptron](https://www.youtube.com/watch?v=UNaX8uaOVAI), [Logic Gates](https://www.youtube.com/watch?v=VP5rHCe2S5k), [XOR Problem](https://www.youtube.com/watch?v=6Mlw59X0bE4), [Activations](https://www.youtube.com/watch?v=KgfF61Zsi-0), [MLP](https://www.youtube.com/watch?v=NiuHB2wx4yw), [Forward Prop](https://www.youtube.com/watch?v=LIKdvMhF_Yc), [Vectorized](https://www.youtube.com/watch?v=uqvNkihYrBc), [XOR Solved](https://www.youtube.com/watch?v=D3lqS2NFQYA) |
-| 15 |        | Mar 10 | Neural Networks — Autograd ([PDF](https://nipunbatra.github.io/principles-ai-teaching/lectures/05-neural-networks/autograd.pdf)), Notebooks: [Autodiff](https://nipunbatra.github.io/principles-ai-teaching/lecture_demo/L05_autodiff.html), [FC Visualizer](https://nipunbatra.github.io/principles-ai-teaching/lecture_demo/L05_fc_visualizer_demo.html), [Autograd Playground](https://nipunbatra.github.io/autograd-playground/) | Backpropagation, autograd, training loop | M09V01--V05: [Why Autodiff?](https://www.youtube.com/watch?v=VMsHnrxo5WQ), [Comp Graphs](https://www.youtube.com/watch?v=eN79pT_8RMU), [Backprop](https://www.youtube.com/watch?v=gIIZTCE9f4Q), [Full Backward Pass](https://www.youtube.com/watch?v=7IO6EsqKFb4), [Autograd Engine](https://www.youtube.com/watch?v=dQkSNXe9uc8) |
-| 16 | Mar 16 | Mar 16 | Next Token Prediction ([PDF](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/next-token-prediction.pdf)), Notebook: [Next Char](https://colab.research.google.com/github/nipunbatra/principles-ai-teaching/blob/main/lecture_demo/L07_next_char.ipynb), Demo: [GPT Demo](https://gpt-demo.streamlit.app/) | Embeddings, next character prediction, MLP for generation | M10V01--V08: [What is NTP?](https://www.youtube.com/watch?v=Wd7Csj27Gzc), [Indian Names Dataset](https://www.youtube.com/watch?v=KVZoDVCjLsk), [Training Set](https://www.youtube.com/watch?v=x-XqF5c-H0c), [Char Embeddings](https://www.youtube.com/watch?v=s6JWiSYMeOo), [Embedding Lookup](https://www.youtube.com/watch?v=ey4tWo4Nnuk), [Full Architecture](https://www.youtube.com/watch?v=BzRUF_7n3_A), [Training](https://www.youtube.com/watch?v=Hq0xvcbSHpk), [Generating Names](https://www.youtube.com/watch?v=aSRuePZjUVY) |
-
-## Module 3
-
-| # | Dates (H) | Dates (E) | Lecture Slides |
-|--:|:---------:|:---------:|:---------------|
-| 1 | Mar 18  | Mar 17  | [Probabilistic Reasoning](https://drive.google.com/file/d/122VC1485T3EMt7HS1MBQDqM9D3jOg8b2/view?usp=sharing) |
-| 2 | Mar 25  | Mar 24  | [Decision Trees & Expert Systems](https://drive.google.com/file/d/1DYqarlITEySm-YLX0D71djI-5as0Ztlj/view?usp=sharing) |
-| 3 | Apr 01  | Mar 30  | [Evaluation Metrics](https://drive.google.com/file/d/1yINSXZq8nq-qVBWS6H7xsVwVXeHLsXNX/view?usp=sharing) |
-| 4 | Apr 06  | Apr 06  | [Sequential Decision Making: Utilities and MDPs](https://drive.google.com/file/d/12Hi8SsY9BLdtdxI3F9nze37YRZAAUpZC/view?usp=sharing) |
-| 5 | Apr 07  | Apr 07  | [Sequential Decision Making: Solving MDPs](https://drive.google.com/file/d/1NtvL5E45S-MSapD0DRVYtbtNqhAm2VFB/view?usp=sharing) |
-| 6 | Apr 08  | Apr 08  | [Passive Reinforcement Learning](https://drive.google.com/file/d/1dZa2HkLnf8HM3lRyRQmgPzWJ8Jgj4Res/view?usp=sharing) |
-| 7 | Apr 13  | Apr 13  | [Active Reinforcement Learning](https://drive.google.com/file/d/1tPrxlQqDLDrBvOl-Fix8OSUmXCRCu_-x/view?usp=sharing) |
-| 7 | Apr 25  | Apr 25  | [Quiz (Question Papers)](https://drive.google.com/drive/folders/1qMdk1O80Urr_FBk0GoCrfVehWbU82gZz?usp=sharing) |
+This page has moved: [go to Lectures](/schedule.html).
